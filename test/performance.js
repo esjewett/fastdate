@@ -10,7 +10,7 @@ var start, end, result;
 // Set iterations
 var d3ParseIterations = 100000;
 var d3FormatIterations = 100000;
-var momentParseIterations = 10000;
+var momentParseIterations = 100000;
 var momentFormatIterations = 100000;
 var optimalParseIterations = 100000;
 var optimalFormatIterations = 100000;
