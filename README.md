@@ -17,4 +17,4 @@ Optimal parsing: 48ms(0.00048 ms/parse)
 Optimal formatting: 16ms(0.00016 ms/parse)
 ```
 
-Parsing in 60% of the time of d3.js, formatting in 13% of the time. There is quite a bit of headroom to hit the 'optimal' times, so there is work to do!
+Parsing in 60% of the time of d3.js, formatting in 13% of the time. There is quite a bit of headroom to hit the 'optimal' times, especially on parsing, so there is work to do!
