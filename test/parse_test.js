@@ -2,7 +2,7 @@ var fastdate = require('../fastdate.js');
 
 describe('fastdate.format(specifier).parse', function(){
 	describe('fastdate.format("%Y-%m-%d %H:%M:%S").parse', function(){
-		var date = new Date();
+		var date = new Date(0);
 		var dateString = "2013-06-30 05:20:10";
 		date.setYear(2013);
 		date.setMonth(05);

@@ -122,7 +122,7 @@ module.exports = function (format) {
 	}
 
 	return function (string) {
-		date = new Date();
+		date = new Date(0);
 		for(var i = 0; i < parseFunctions.length; i++) {
 			string = parseFunctions[i](string, date);
 		}
